@@ -27,7 +27,7 @@ If your bot needs message content access (it does for the `!ping` command), enab
 4) Run the bot
 
 ```
-python bot.py
+python main.py
 ```
 
 5) Invite the bot to your server
@@ -37,6 +37,21 @@ Generate an invite URL in the Developer Portal (OAuth2 -> URL Generator). Scopes
 Notes:
 - Keep your token secret. Do not commit `.env` to source control.
 - If you want the bot to run continuously, consider hosting options (Heroku, Railway, VPS, or a Docker container).
+
+## GitHub Actions
+
+If you want to run the bot from GitHub Actions, add the following secrets to your repository:
+
+- `DISCORD_TOKEN`
+- `DISCORD_GUILD_ID` (optional)
+
+Then use the workflow in `.github/workflows/run-discord-bot.yml`.
+
+This workflow is triggered manually using `workflow_dispatch` and will run the bot in a GitHub-hosted runner.
+
+> Important: GitHub Actions runners are ephemeral. A workflow can only stay running for a limited time (currently 6 hours), so this is not a permanent production host.
+
+If you need a truly always-online bot, deploy to a hosted server, PythonAnywhere always-on task, Railway, or another persistent service.
 
 ## New command: `!build`
 
