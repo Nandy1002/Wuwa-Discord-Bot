@@ -1,0 +1,46 @@
+{
+  "hiyuki": {
+    "name": "Hiyuki",
+    "element": "Glacio",
+    "weapon_type": "Broadblade",
+    "color": 5814783,
+    "description": "A flexible Glacio carry with strong echo sets and team synergy.",
+    "thumbnail": "https://via.placeholder.com/128.png?text=Hiyuki",
+    "banner": "https://via.placeholder.com/800x300.png?text=Hiyuki+Banner",
+    "image_file": "img/characters/hiyuki.jpg",
+    "best_set": "wishes_of_quiet_snowfall",
+    "alternate_set": "freezing_frost",
+    "substats": [
+      "Crit Rate / Crit DMG",
+      "Energy Regen",
+      "Resonance Liberation DMG",
+      "ATK%",
+      "Flat ATK"
+    ],
+    "weapons": {
+      "best": ["frostburn", "emerald_of_genesis", "red_spring"],
+      "f2p": ["somnoire_anchor", "feather_edge", "fables_of_wisdom", "commando_of_conviction"]
+    },
+    "forte_priority": [
+      "★★★★★ Normal Attack",
+      "★★★★★ Resonance Liberation",
+      "★★★★☆ Forte Circuit",
+      "★★★☆☆ Resonance Skill",
+      "★★☆☆☆ Intro Skill"
+    ],
+    "teams": [
+      {
+        "type": "Best Team",
+        "members": "Hiyuki • Lynae • Chisa"
+      },
+      {
+        "type": "F2P Team",
+        "members": "Hiyuki • Jianxin • Baizhi"
+      },
+      {
+        "type": "Alternative Team",
+        "members": "Hiyuki • Zhizhi • Shorekeeper"
+      }
+    ]
+  }
+}

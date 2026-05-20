@@ -1,0 +1,22 @@
+{
+  "wishes_of_quiet_snowfall": {
+    "name": "Wishes of Quiet Snowfall",
+    "pieces": [
+      "4 - Crit Rate / Crit DMG",
+      "3 - Glacio DMG / ATK%",
+      "3 - Glacio DMG / ATK%",
+      "1 - ATK%",
+      "1 - ATK%"
+    ]
+  },
+  "freezing_frost": {
+    "name": "Freezing Frost",
+    "pieces": [
+      "4 - Energy Regen / Crit Rate",
+      "3 - Glacio DMG / ATK%",
+      "3 - Glacio DMG / ATK%",
+      "1 - ATK%",
+      "1 - ATK%"
+    ]
+  }
+}

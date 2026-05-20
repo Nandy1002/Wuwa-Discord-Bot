@@ -1,0 +1,9 @@
+{
+  "frostburn": { "name": "Frostburn", "type": "5★", "image_file": "img/weapons/frontburn.png" },
+  "emerald_of_genesis": { "name": "Emerald of Genesis", "type": "5★" },
+  "red_spring": { "name": "Red Spring", "type": "5★" },
+  "somnoire_anchor": { "name": "Somnoire Anchor", "type": "4★" },
+  "feather_edge": { "name": "Feather Edge", "type": "4★" },
+  "fables_of_wisdom": { "name": "Fables of Wisdom", "type": "4★" },
+  "commando_of_conviction": { "name": "Commando of Conviction", "type": "4★" }
+}
