@@ -1,3 +1,4 @@
+import asyncio
 import os
 
 import discord
@@ -54,4 +55,12 @@ class ShorekeeperBot(commands.Bot):
         return cls._instance
 
     def run_bot(self):
+        # For GitHub Actions: add timeout if in CI environment
+        if os.getenv('CI') == 'true':
+            async def shutdown_after_connection():
+                await asyncio.sleep(5)  # Wait 5 seconds to confirm connection
+                await self.close()
+            
+            self.loop.create_task(shutdown_after_connection())
+        
         super().run(self.token)
