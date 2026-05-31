@@ -155,20 +155,4 @@ class EchoSetCog(commands.Cog):
         else:
             await ctx.send(content=message_content, embed=embed)
 
-    @commands.hybrid_group(name='list')
-    async def list_group(self, ctx):
-        """Group of commands to list various data."""
-        pass
 
-    @list_group.command(name='echoset', description='Show a paginated list of all echo sets.')
-    async def list_echoset(self, ctx):
-        """Show a paginated list of all echo sets."""
-        echosets = list(self.bot.data_manager.echosets.values())
-        if not echosets:
-            await ctx.send("No echo sets available.")
-            return
-            
-        view = EchoSetPaginator(echosets, ctx)
-        embed, file = await view.generate_page()
-        
-        await ctx.send(embed=embed, file=file, view=view)

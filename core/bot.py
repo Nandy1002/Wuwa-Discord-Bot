@@ -9,6 +9,8 @@ from core.help import CustomHelpCommand
 from cogs.build import BuildCog
 from cogs.misc import MiscCog
 from cogs.echoset import EchoSetCog
+from cogs.weapon import WeaponCog
+from cogs.listing import ListingCog
 
 
 class ShorekeeperBot(commands.Bot):
@@ -44,6 +46,8 @@ class ShorekeeperBot(commands.Bot):
         await self.add_cog(BuildCog(self))
         await self.add_cog(MiscCog(self))
         await self.add_cog(EchoSetCog(self))
+        await self.add_cog(WeaponCog(self))
+        await self.add_cog(ListingCog(self))
         try:
             await self.tree.sync()
             print('Synced global application commands.')
