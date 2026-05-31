@@ -5,8 +5,10 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 from core.data_manager import DataManager
+from core.help import CustomHelpCommand
 from cogs.build import BuildCog
 from cogs.misc import MiscCog
+from cogs.echoset import EchoSetCog
 
 
 class ShorekeeperBot(commands.Bot):
@@ -17,7 +19,7 @@ class ShorekeeperBot(commands.Bot):
             cls._instance = super().__new__(cls)
         return cls._instance
 
-    def __init__(self, command_prefix='!', intents=None):
+    def __init__(self, command_prefix='!!', intents=None):
         if hasattr(self, 'initialized') and self.initialized:
             return
 
@@ -35,12 +37,13 @@ class ShorekeeperBot(commands.Bot):
             intents = discord.Intents.default()
             intents.message_content = True
 
-        super().__init__(command_prefix=command_prefix, intents=intents)
+        super().__init__(command_prefix=command_prefix, intents=intents, help_command=CustomHelpCommand())
         self.initialized = True
 
     async def setup_hook(self):
         await self.add_cog(BuildCog(self))
         await self.add_cog(MiscCog(self))
+        await self.add_cog(EchoSetCog(self))
         try:
             await self.tree.sync()
             print('Synced global application commands.')

@@ -16,7 +16,7 @@ class BuildCog(commands.Cog):
         """Show a character build guide."""
         if not character:
             available = ', '.join(sorted(self.bot.data_manager.get_all_character_names()))
-            await ctx.send(f'Please use `!build <character>`. Available characters: {available}')
+            await ctx.send(f'Please use `!!build <character>`. Available characters: {available}')
             return
 
         key = character.strip().lower()
