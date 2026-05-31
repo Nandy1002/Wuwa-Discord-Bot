@@ -166,7 +166,16 @@ def generate_weapon_table_image(weapons, page_num, total_pages, asset_resolver):
         draw.text((col4_x, text_y), w.type or '', font=font, fill=text_color)
 
         # Draw Rarity
-        draw.text((col5_x, text_y), w.rarity or '', font=font, fill=text_color)
+        rarity_color = text_color
+        if w.rarity:
+            if "5" in w.rarity:
+                rarity_color = (255, 215, 0)  # Yellow
+            elif "4" in w.rarity:
+                rarity_color = (180, 100, 255) # Purple
+            elif "3" in w.rarity:
+                rarity_color = (64, 164, 255) # Blue
+                
+        draw.text((col5_x, text_y), w.rarity or '', font=font, fill=rarity_color)
         
         # Draw line under row
         y += row_height

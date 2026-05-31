@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 from core.data_manager import DataManager
 from core.help import CustomHelpCommand
-from cogs.build import BuildCog
+from cogs.character import CharacterCog
 from cogs.misc import MiscCog
 from cogs.echoset import EchoSetCog
 from cogs.weapon import WeaponCog
@@ -43,7 +43,7 @@ class ShorekeeperBot(commands.Bot):
         self.initialized = True
 
     async def setup_hook(self):
-        await self.add_cog(BuildCog(self))
+        await self.add_cog(CharacterCog(self))
         await self.add_cog(MiscCog(self))
         await self.add_cog(EchoSetCog(self))
         await self.add_cog(WeaponCog(self))

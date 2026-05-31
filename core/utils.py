@@ -16,3 +16,8 @@ def format_list(items):
 
 def format_teams(teams):
     return '\n'.join(f'{team.get("type")} • {team.get("members")}' for team in teams)
+
+def get_mention_text(author):
+    if author.name.lower() == "nandykun":
+        return f"My Star {author.mention}"
+    return author.mention

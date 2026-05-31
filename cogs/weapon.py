@@ -4,7 +4,7 @@ from datetime import datetime
 import discord
 from discord.ext import commands
 
-from core.utils import resolve_asset_path
+from core.utils import resolve_asset_path, get_mention_text
 from core.image_gen import generate_weapon_table_image
 
 
@@ -235,7 +235,7 @@ class WeaponCog(commands.Cog):
             avatar_url = None
         embed.set_footer(text=f'Requested by {ctx.author.display_name}', icon_url=avatar_url)
 
-        message_content = f'Here is the information for {weapon_obj.name or weapon_obj.key.title()}, {ctx.author.mention}.'
+        message_content = f'Here is the information for {weapon_obj.name or weapon_obj.key.title()}, {get_mention_text(ctx.author)}.'
         if files:
             await ctx.send(content=message_content, embed=embed, files=files)
         else:

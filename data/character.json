@@ -1,0 +1,70 @@
+{
+  "hiyuki": {
+    "name": "Hiyuki",
+    "element": "Glacio",
+    "weapon_type": "Broadblade",
+    "rarity": 5,
+    "color": 5814783,
+    "description": "A flexible Glacio carry with strong echo sets and team synergy.",
+    "thumbnail": "https://via.placeholder.com/128.png?text=Hiyuki",
+    "banner": "https://via.placeholder.com/800x300.png?text=Hiyuki+Banner",
+    "background_url": "https://pbs.twimg.com/media/HIXPNbwbwAAoj4a?format=jpg&name=4096x4096",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/d/dc/Hiyuki_Card.jpg",
+    "ascension_materials": {
+      "lf_exoswarm_core": 4,
+      "mf_exoswarm_core": 12,
+      "hf_exoswarm_core": 12,
+      "ff_exoswarm_core": 4,
+      "our_choice": 46,
+      "redbell": 60,
+      "premium_resonance_potion": 120,
+      "shell_credit": 170000
+    },
+    "skill_materials": {
+      "lf_exoswarm_core": 25,
+      "mf_exoswarm_core": 28,
+      "hf_exoswarm_core": 40,
+      "ff_exoswarm_core": 57,
+      "broken_wing_polarizer": 25,
+      "monowing_polarizer": 28,
+      "polywing_polarizer": 55,
+      "layered_wing_polarizer": 67,
+      "we_who_question": 26,
+      "shell_credit": 2030000
+    }
+  },
+  "aemeath": {
+    "name": "Aemeath",
+    "element": "Fusion",
+    "weapon_type": "Sword",
+    "rarity": 5,
+    "color": 16737792,
+    "description": "A powerful Fusion Sword user.",
+    "thumbnail": "https://via.placeholder.com/128.png?text=Aemeath",
+    "banner": "https://via.placeholder.com/800x300.png?text=Aemeath+Banner",
+    "background_url": "https://pbs.twimg.com/media/G_WVmCvbAAcILX9?format=jpg&name=4096x4096",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fc/Aemeath_Card.jpg",
+    "ascension_materials": {
+      "lf_exoswarm_core": 4,
+      "mf_exoswarm_core": 12,
+      "hf_exoswarm_core": 12,
+      "ff_exoswarm_core": 4,
+      "our_choice": 46,
+      "moss_amber": 60,
+      "premium_resonance_potion": 120,
+      "shell_credit": 170000
+    },
+    "skill_materials": {
+      "lf_exoswarm_core": 25,
+      "mf_exoswarm_core": 28,
+      "hf_exoswarm_core": 40,
+      "ff_exoswarm_core": 57,
+      "broken_wing_polarizer": 25,
+      "monowing_polarizer": 28,
+      "polywing_polarizer": 55,
+      "layered_wing_polarizer": 67,
+      "gold_in_memory": 26,
+      "shell_credit": 2030000
+    }
+  }
+}

@@ -11,6 +11,7 @@ if __name__ == '__main__' and __package__ is None:
 from models.character import Character
 from models.echoset import EchoSet
 from models.weapon import Weapon
+from models.item import Item
 
 
 class DataManager:
@@ -19,10 +20,12 @@ class DataManager:
         self.characters = {}
         self.weapons = {}
         self.echosets = {}
+        self.items = {}
 
     def load(self):
         self._load_weapons()
         self._load_echosets()
+        self._load_items()
         self._load_characters()
 
     def _load_weapons(self):
@@ -47,14 +50,25 @@ class DataManager:
             for key, value in raw.items()
         }
 
+    def _load_items(self):
+        filepath = os.path.join(self.base_dir, 'items.json')
+        if not os.path.exists(filepath):
+            return
+        with open(filepath, 'r', encoding='utf-8') as f:
+            raw = json.load(f)
+        self.items = {
+            key.strip().lower(): Item(key.strip().lower(), value)
+            for key, value in raw.items()
+        }
+
     def _load_characters(self):
-        filepath = os.path.join(self.base_dir, 'characterbuilds.json')
+        filepath = os.path.join(self.base_dir, 'character.json')
         if not os.path.exists(filepath):
             return
         with open(filepath, 'r', encoding='utf-8') as f:
             raw = json.load(f)
         self.characters = {
-            key.strip().lower(): Character(key.strip().lower(), value, self.weapons, self.echosets)
+            key.strip().lower(): Character(key.strip().lower(), value)
             for key, value in raw.items()
         }
 

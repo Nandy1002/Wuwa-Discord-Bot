@@ -17,6 +17,8 @@ class CustomHelpCommand(commands.HelpCommand):
             description='Here is a list of all available commands. Use `!!help <command>` for more information.',
             color=discord.Color.blurple()
         )
+        
+        embed.set_image(url="https://cdn.discordapp.com/attachments/1292845515893112875/1510652472811716718/sk_intro.gif?ex=6a1d9840&is=6a1c46c0&hm=75f44022db9d57a6443fef63691ba86a24a4b41cbc7211b90c9f0e896e105a1c&")
 
         for cog, commands_list in mapping.items():
             filtered = await self.filter_commands(commands_list, sort=True)
