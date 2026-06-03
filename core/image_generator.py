@@ -29,7 +29,7 @@ def draw_star(draw, x, y, size, fill):
     draw.polygon(points, fill=fill)
 
 def generate_materials_image(character_obj, data_manager):
-    width, height = 1150, 850
+    width, height = 1400, 1050
     
     # Create base canvas with transparency support
     bg_color = (20, 24, 35)
@@ -197,18 +197,20 @@ def generate_materials_image(character_obj, data_manager):
         draw_text_with_shadow(draw, (x_start, y_start), title, section_font, (255, 215, 0)) # Gold text
         draw.line([(x_start, y_start + 35), (x_start + 40, y_start + 35)], fill=(255, 215, 0), width=3) # Small accent line
         
-        y_pos = y_start + 55
+        y_pos = y_start + 75
         icon_size = 76
         spacing_x = 105
-        spacing_y = 115
+        spacing_y = 150
         
         items_per_row = (width - x_start - 20) // spacing_x
         if items_per_row < 1: items_per_row = 1
         row, col = 0, 0
         
-        # We need a separate layer for translucent drawing
         ui_layer = Image.new('RGBA', image.size, (0, 0, 0, 0))
         ui_draw = ImageDraw.Draw(ui_layer)
+        
+        # Font for item names above the icon
+        item_name_font = get_font(13, bold=False)
         
         for item_key, amount in materials_dict.items():
             if amount == 0: continue
@@ -224,12 +226,29 @@ def generate_materials_image(character_obj, data_manager):
             box_outline = (255, 255, 255, 50)
             ui_draw.rounded_rectangle([x-6, y-6, x+icon_size+6, y+icon_size+6], radius=14, fill=box_fill, outline=box_outline, width=1)
             
+            # Draw Item Name above the box
+            if item and item.name:
+                # Truncate long names to fit roughly inside the spacing
+                display_name = item.name
+                if len(display_name) > 13:
+                    display_name = display_name[:11] + ".."
+                name_bbox = draw.textbbox((0, 0), display_name, font=item_name_font)
+                name_w = name_bbox[2] - name_bbox[0]
+                name_x = x + (icon_size - name_w) // 2
+                name_y = y - 24
+                ui_draw.text((name_x, name_y), display_name, font=item_name_font, fill=(220, 220, 220))
+            
             if icon_path and os.path.exists(icon_path):
                 try:
                     icon_img = Image.open(icon_path).convert("RGBA")
-                    icon_img = icon_img.resize((icon_size, icon_size), Image.Resampling.LANCZOS)
-                    # Paste icon directly to the main image since it handles alphas properly
-                    image.paste(icon_img, (x, y), icon_img)
+                    img_w, img_h = icon_img.size
+                    ratio = min(icon_size / img_w, icon_size / img_h)
+                    new_w, new_h = int(img_w * ratio), int(img_h * ratio)
+                    icon_img = icon_img.resize((new_w, new_h), Image.Resampling.LANCZOS)
+                    
+                    offset_x = x + (icon_size - new_w) // 2
+                    offset_y = y + (icon_size - new_h) // 2
+                    image.paste(icon_img, (offset_x, offset_y), icon_img)
                 except Exception:
                     pass
             

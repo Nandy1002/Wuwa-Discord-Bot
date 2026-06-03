@@ -1,618 +1,633 @@
 {
-    "basic_sealed_tube": {
-        "name": "Basic Sealed Tube",
-        "icon": "img/items/basic_sealed_tube.png"
-    },
-    "basic_resonance_potion": {
-        "name": "Basic Resonance Potion",
-        "icon": "img/items/basic_resonance_potion.png"
-    },
-    "inert_metallic_drip": {
-        "name": "Inert Metallic Drip",
-        "icon": "img/items/inert_metallic_drip.png"
-    },
-    "lf_whisperin_core": {
-        "name": "LF Whisperin Core",
-        "icon": "img/items/lf_whisperin_core.png"
-    },
-    "lf_howler_core": {
-        "name": "LF Howler Core",
-        "icon": "img/items/lf_howler_core.png"
-    },
-    "crude_ring": {
-        "name": "Crude Ring",
-        "icon": "img/items/crude_ring.png"
-    },
-    "mask_of_constraint": {
-        "name": "Mask of Constraint",
-        "icon": "img/items/mask_of_constraint.png"
-    },
-    "impure_phlogiston": {
-        "name": "Impure Phlogiston",
-        "icon": "img/items/impure_phlogiston.png"
-    },
-    "lento_helix": {
-        "name": "Lento Helix",
-        "icon": "img/items/lento_helix.png"
-    },
-    "waveworn_residue_210": {
-        "name": "Waveworn Residue 210",
-        "icon": "img/items/waveworn_residue_210.png"
-    },
-    "cadence_seed": {
-        "name": "Cadence Seed",
-        "icon": "img/items/cadence_seed.png"
-    },
-    "basic_energy_core": {
-        "name": "Basic Energy Core",
-        "icon": "img/items/basic_energy_core.png"
-    },
-    "lf_tidal_residuum": {
-        "name": "LF Tidal Residuum",
-        "icon": "img/items/lf_tidal_residuum.png"
-    },
-    "lf_polygon_core": {
-        "name": "LF Polygon Core",
-        "icon": "img/items/lf_polygon_core.png"
-    },
-    "lf_exoswarm_core": {
-        "name": "LF Exoswarm Core",
-        "icon": "img/items/lf_exoswarm_core.png"
-    },
-    "incomplete_combustor": {
-        "name": "Incomplete Combustor",
-        "icon": "img/items/incomplete_combustor.png"
-    },
-    "lf_mech_core": {
-        "name": "LF Mech Core",
-        "icon": "img/items/lf_mech_core.png"
-    },
-    "fractured_exoswarm_pendant": {
-        "name": "Fractured Exoswarm Pendant",
-        "icon": "img/items/fractured_exoswarm_pendant.png"
-    },
-    "broken_wing_polarizer": {
-        "name": "Broken Wing Polarizer",
-        "icon": "img/items/broken_wing_polarizer.png"
-    },
-    "spliced_string": {
-        "name": "Spliced String",
-        "icon": "img/items/spliced_string.png"
-    },
-    "lf_carved_crystal": {
-        "name": "LF Carved Crystal",
-        "icon": "img/items/lf_carved_crystal.png"
-    },
-    "lf_waveworn_shard": {
-        "name": "LF Waveworn Shard",
-        "icon": "img/items/lf_waveworn_shard.png"
-    },
-    "medium_tuner": {
-        "name": "Medium Tuner",
-        "icon": "img/items/medium_tuner.png"
-    },
-    "medium_sealed_tube": {
-        "name": "Medium Sealed Tube",
-        "icon": "img/items/medium_sealed_tube.png"
-    },
-    "medium_resonance_potion": {
-        "name": "Medium Resonance Potion",
-        "icon": "img/items/medium_resonance_potion.png"
-    },
-    "reactive_metallic_drip": {
-        "name": "Reactive Metallic Drip",
-        "icon": "img/items/reactive_metallic_drip.png"
-    },
-    "mf_whisperin_core": {
-        "name": "MF Whisperin Core",
-        "icon": "img/items/mf_whisperin_core.png"
-    },
-    "mf_howler_core": {
-        "name": "MF Howler Core",
-        "icon": "img/items/mf_howler_core.png"
-    },
-    "basic_ring": {
-        "name": "Basic Ring",
-        "icon": "img/items/basic_ring.png"
-    },
-    "mask_of_erosion": {
-        "name": "Mask of Erosion",
-        "icon": "img/items/mask_of_erosion.png"
-    },
-    "extracted_phlogiston": {
-        "name": "Extracted Phlogiston",
-        "icon": "img/items/extracted_phlogiston.png"
-    },
-    "adagio_helix": {
-        "name": "Adagio Helix",
-        "icon": "img/items/adagio_helix.png"
-    },
-    "waveworn_residue_226": {
-        "name": "Waveworn Residue 226",
-        "icon": "img/items/waveworn_residue_226.png"
-    },
-    "cadence_bud": {
-        "name": "Cadence Bud",
-        "icon": "img/items/cadence_bud.png"
-    },
-    "medium_energy_core": {
-        "name": "Medium Energy Core",
-        "icon": "img/items/medium_energy_core.png"
-    },
-    "mf_tidal_residuum": {
-        "name": "MF Tidal Residuum",
-        "icon": "img/items/mf_tidal_residuum.png"
-    },
-    "mf_polygon_core": {
-        "name": "MF Polygon Core",
-        "icon": "img/items/mf_polygon_core.png"
-    },
-    "mf_exoswarm_core": {
-        "name": "MF Exoswarm Core",
-        "icon": "img/items/mf_exoswarm_core.png"
-    },
-    "aftertune_combustor": {
-        "name": "Aftertune Combustor",
-        "icon": "img/items/aftertune_combustor.png"
-    },
-    "mf_mech_core": {
-        "name": "MF Mech Core",
-        "icon": "img/items/mf_mech_core.png"
-    },
-    "worn_exoswarm_pendant": {
-        "name": "Worn Exoswarm Pendant",
-        "icon": "img/items/worn_exoswarm_pendant.png"
-    },
-    "monowing_polarizer": {
-        "name": "Monowing Polarizer",
-        "icon": "img/items/monowing_polarizer.png"
-    },
-    "broken_string": {
-        "name": "Broken String",
-        "icon": "img/items/broken_string.png"
-    },
-    "mf_carved_crystal": {
-        "name": "MF Carved Crystal",
-        "icon": "img/items/mf_carved_crystal.png"
-    },
-    "mf_waveworn_shard": {
-        "name": "MF Waveworn Shard",
-        "icon": "img/items/mf_waveworn_shard.png"
-    },
-    "advanced_tuner": {
-        "name": "Advanced Tuner",
-        "icon": "img/items/advanced_tuner.png"
-    },
-    "advanced_sealed_tube": {
-        "name": "Advanced Sealed Tube",
-        "icon": "img/items/advanced_sealed_tube.png"
-    },
-    "advanced_resonance_potion": {
-        "name": "Advanced Resonance Potion",
-        "icon": "img/items/advanced_resonance_potion.png"
-    },
-    "polarized_metallic_drip": {
-        "name": "Polarized Metallic Drip",
-        "icon": "img/items/polarized_metallic_drip.png"
-    },
-    "strife_tacet_core": {
-        "name": "Strife Tacet Core",
-        "icon": "img/items/strife_tacet_core.png"
-    },
-    "thundering_tacet_core": {
-        "name": "Thundering Tacet Core",
-        "icon": "img/items/thundering_tacet_core.png"
-    },
-    "elegy_tacet_core": {
-        "name": "Elegy Tacet Core",
-        "icon": "img/items/elegy_tacet_core.png"
-    },
-    "rage_tacet_core": {
-        "name": "Rage Tacet Core",
-        "icon": "img/items/rage_tacet_core.png"
-    },
-    "roaring_rock_fist": {
-        "name": "Roaring Rock Fist",
-        "icon": "img/items/roaring_rock_fist.png"
-    },
-    "gold_dissolving_feather": {
-        "name": "Gold-Dissolving Feather",
-        "icon": "img/items/gold_dissolving_feather.png"
-    },
-    "sound_keeping_tacet_core": {
-        "name": "Sound-Keeping Tacet Core",
-        "icon": "img/items/sound_keeping_tacet_core.png"
-    },
-    "group_abomination_tacet_core": {
-        "name": "Group Abomination Tacet Core",
-        "icon": "img/items/group_abomination_tacet_core.png"
-    },
-    "hf_whisperin_core": {
-        "name": "HF Whisperin Core",
-        "icon": "img/items/hf_whisperin_core.png"
-    },
-    "hf_howler_core": {
-        "name": "HF Howler Core",
-        "icon": "img/items/hf_howler_core.png"
-    },
-    "improved_ring": {
-        "name": "Improved Ring",
-        "icon": "img/items/improved_ring.png"
-    },
-    "mask_of_distortion": {
-        "name": "Mask of Distortion",
-        "icon": "img/items/mask_of_distortion.png"
-    },
-    "monument_bell": {
-        "name": "Monument Bell",
-        "icon": "img/items/monument_bell.png"
-    },
-    "unending_destruction": {
-        "name": "Unending Destruction",
-        "icon": "img/items/unending_destruction.png"
-    },
-    "refined_phlogiston": {
-        "name": "Refined Phlogiston",
-        "icon": "img/items/refined_phlogiston.png"
-    },
-    "andante_helix": {
-        "name": "Andante Helix",
-        "icon": "img/items/andante_helix.png"
-    },
-    "waveworn_residue_235": {
-        "name": "Waveworn Residue 235",
-        "icon": "img/items/waveworn_residue_235.png"
-    },
-    "cadence_leaf": {
-        "name": "Cadence Leaf",
-        "icon": "img/items/cadence_leaf.png"
-    },
-    "hidden_thunder_tacet_core": {
-        "name": "Hidden Thunder Tacet Core",
-        "icon": "img/items/hidden_thunder_tacet_core.png"
-    },
-    "advanced_energy_core": {
-        "name": "Advanced Energy Core",
-        "icon": "img/items/advanced_energy_core.png"
-    },
-    "dreamless_feather": {
-        "name": "Dreamless Feather",
-        "icon": "img/items/dreamless_feather.png"
-    },
-    "sentinels_dagger": {
-        "name": "Sentinel's Dagger",
-        "icon": "img/items/sentinels_dagger.png"
-    },
-    "topological_confinement": {
-        "name": "Topological Confinement",
-        "icon": "img/items/topological_confinement.png"
-    },
-    "hf_tidal_residuum": {
-        "name": "HF Tidal Residuum",
-        "icon": "img/items/hf_tidal_residuum.png"
-    },
-    "hf_polygon_core": {
-        "name": "HF Polygon Core",
-        "icon": "img/items/hf_polygon_core.png"
-    },
-    "the_netherworlds_stare": {
-        "name": "The Netherworld's Stare",
-        "icon": "img/items/the_netherworlds_stare.png"
-    },
-    "cleansing_conch": {
-        "name": "Cleansing Conch",
-        "icon": "img/items/cleansing_conch.png"
-    },
-    "platinum_core": {
-        "name": "Platinum Core",
-        "icon": "img/items/platinum_core.png"
-    },
-    "blazing_bone": {
-        "name": "Blazing Bone",
-        "icon": "img/items/blazing_bone.png"
-    },
-    "when_irises_bloom": {
-        "name": "When Irises Bloom",
-        "icon": "img/items/when_irises_bloom.png"
-    },
-    "unfading_glory": {
-        "name": "Unfading Glory",
-        "icon": "img/items/unfading_glory.png"
-    },
-    "truth_in_lies": {
-        "name": "Truth in Lies",
-        "icon": "img/items/truth_in_lies.png"
-    },
-    "blighted_crown_of_puppet_king": {
-        "name": "Blighted Crown of Puppet King",
-        "icon": "img/items/blighted_crown_of_puppet_king.png"
-    },
-    "abyssal_husk": {
-        "name": "Abyssal Husk",
-        "icon": "img/items/abyssal_husk.png"
-    },
-    "curse_of_the_abyss": {
-        "name": "Curse of the Abyss",
-        "icon": "img/items/curse_of_the_abyss.png"
-    },
-    "hf_exoswarm_core": {
-        "name": "HF Exoswarm Core",
-        "icon": "img/items/hf_exoswarm_core.png"
-    },
-    "suncoveters_reach": {
-        "name": "Suncoveter's Reach",
-        "icon": "img/items/suncoveters_reach.png"
-    },
-    "remnant_combustor": {
-        "name": "Remnant Combustor",
-        "icon": "img/items/remnant_combustor.png"
-    },
-    "hf_mech_core": {
-        "name": "HF Mech Core",
-        "icon": "img/items/hf_mech_core.png"
-    },
-    "chipped_exoswarm_pendant": {
-        "name": "Chipped Exoswarm Pendant",
-        "icon": "img/items/chipped_exoswarm_pendant.png"
-    },
-    "polywing_polarizer": {
-        "name": "Polywing Polarizer",
-        "icon": "img/items/polywing_polarizer.png"
-    },
-    "solidified_string": {
-        "name": "Solidified String",
-        "icon": "img/items/solidified_string.png"
-    },
-    "hf_carved_crystal": {
-        "name": "HF Carved Crystal",
-        "icon": "img/items/hf_carved_crystal.png"
-    },
-    "hf_waveworn_shard": {
-        "name": "HF Waveworn Shard",
-        "icon": "img/items/hf_waveworn_shard.png"
-    },
-    "burning_judgment": {
-        "name": "Burning Judgment",
-        "icon": "img/items/burning_judgment.png"
-    },
-    "our_choice": {
-        "name": "Our Choice",
-        "icon": "img/items/our_choice.png"
-    },
-    "gold_in_memory": {
-        "name": "Gold in Memory",
-        "icon": "img/items/gold_in_memory.png"
-    },
-    "we_who_question": {
-        "name": "We Who Question",
-        "icon": "img/items/we_who_question.png"
-    },
-    "nightmare_flashdrive": {
-        "name": "Nightmare Flashdrive",
-        "icon": "img/items/nightmare_flashdrive.png"
-    },
-    "premium_tuner": {
-        "name": "Premium Tuner",
-        "icon": "img/items/premium_tuner.png"
-    },
-    "premium_sealed_tube": {
-        "name": "Premium Sealed Tube",
-        "icon": "img/items/premium_sealed_tube.png"
-    },
-    "premium_resonance_potion": {
-        "name": "Premium Resonance Potion",
-        "icon": "img/items/premium_resonance_potion.png"
-    },
-    "heterized_metallic_drip": {
-        "name": "Heterized Metallic Drip",
-        "icon": "img/items/heterized_metallic_drip.png"
-    },
-    "mysterious_code": {
-        "name": "Mysterious Code",
-        "icon": "img/items/mysterious_code.png"
-    },
-    "ff_whisperin_core": {
-        "name": "FF Whisperin Core",
-        "icon": "img/items/ff_whisperin_core.png"
-    },
-    "ff_howler_core": {
-        "name": "FF Howler Core",
-        "icon": "img/items/ff_howler_core.png"
-    },
-    "tailored_ring": {
-        "name": "Tailored Ring",
-        "icon": "img/items/tailored_ring.png"
-    },
-    "mask_of_insanity": {
-        "name": "Mask of Insanity",
-        "icon": "img/items/mask_of_insanity.png"
-    },
-    "flawless_phlogiston": {
-        "name": "Flawless Phlogiston",
-        "icon": "img/items/flawless_phlogiston.png"
-    },
-    "presto_helix": {
-        "name": "Presto Helix",
-        "icon": "img/items/presto_helix.png"
-    },
-    "waveworn_residue_239": {
-        "name": "Waveworn Residue 239",
-        "icon": "img/items/waveworn_residue_239.png"
-    },
-    "cadence_blossom": {
-        "name": "Cadence Blossom",
-        "icon": "img/items/cadence_blossom.png"
-    },
-    "premium_energy_core": {
-        "name": "Premium Energy Core",
-        "icon": "img/items/premium_energy_core.png"
-    },
-    "ff_tidal_residuum": {
-        "name": "FF Tidal Residuum",
-        "icon": "img/items/ff_tidal_residuum.png"
-    },
-    "ff_polygon_core": {
-        "name": "FF Polygon Core",
-        "icon": "img/items/ff_polygon_core.png"
-    },
-    "echo_modifier": {
-        "name": "Echo Modifier",
-        "icon": "img/items/echo_modifier.png"
-    },
-    "ff_exoswarm_core": {
-        "name": "FF Exoswarm Core",
-        "icon": "img/items/ff_exoswarm_core.png"
-    },
-    "reverb_combustor": {
-        "name": "Reverb Combustor",
-        "icon": "img/items/reverb_combustor.png"
-    },
-    "ff_mech_core": {
-        "name": "FF Mech Core",
-        "icon": "img/items/ff_mech_core.png"
-    },
-    "intact_exoswarm_pendant": {
-        "name": "Intact Exoswarm Pendant",
-        "icon": "img/items/intact_exoswarm_pendant.png"
-    },
-    "layered_wing_polarizer": {
-        "name": "Layered Wing Polarizer",
-        "icon": "img/items/layered_wing_polarizer.png"
-    },
-    "melodic_string": {
-        "name": "Melodic String",
-        "icon": "img/items/melodic_string.png"
-    },
-    "ff_carved_crystal": {
-        "name": "FF Carved Crystal",
-        "icon": "img/items/ff_carved_crystal.png"
-    },
-    "ff_waveworn_shard": {
-        "name": "FF Waveworn Shard",
-        "icon": "img/items/ff_waveworn_shard.png"
-    },
-    "transducer": {
-        "name": "Transducer",
-        "icon": "img/items/transducer.png"
-    },
-    "redbell": {
-        "name": "Redbell",
-        "icon": "img/items/redbell.png"
-    },
-    "shell_credit": {
-        "name": "Shell Credit",
-        "icon": "img/items/shell_credit.png"
-    },
-    "afterlife": {
-        "name": "Afterlife",
-        "icon": "img/items/afterlife.png"
-    },
-    "arithmetic_shell": {
-        "name": "Arithmetic Shell",
-        "icon": "img/items/arithmetic_shell.png"
-    },
-    "bamboo_iris": {
-        "name": "Bamboo Iris",
-        "icon": "img/items/bamboo_iris.png"
-    },
-    "belle_poppy": {
-        "name": "Belle Poppy",
-        "icon": "img/items/belle_poppy.png"
-    },
-    "bloodleaf_viburnum": {
-        "name": "Bloodleaf Viburnum",
-        "icon": "img/items/bloodleaf_viburnum.png"
-    },
-    "coriolus": {
-        "name": "Coriolus",
-        "icon": "img/items/coriolus.png"
-    },
-    "dream_of_stars": {
-        "name": "Dream of Stars",
-        "icon": "img/items/dream_of_stars.png"
-    },
-    "edelschnee": {
-        "name": "Edelschnee",
-        "icon": "img/items/edelschnee.png"
-    },
-    "firecracker_jewelweed": {
-        "name": "Firecracker Jewelweed",
-        "icon": "img/items/firecracker_jewelweed.png"
-    },
-    "gemini_spore": {
-        "name": "Gemini Spore",
-        "icon": "img/items/gemini_spore.png"
-    },
-    "golden_fleece": {
-        "name": "Golden Fleece",
-        "icon": "img/items/golden_fleece.png"
-    },
-    "iris": {
-        "name": "Iris",
-        "icon": "img/items/iris.png"
-    },
-    "lanternberry": {
-        "name": "Lanternberry",
-        "icon": "img/items/lanternberry.png"
-    },
-    "loongs_pearl": {
-        "name": "Loong's Pearl",
-        "icon": "img/items/loongs_pearl.png"
-    },
-    "luminous_calendula": {
-        "name": "Luminous Calendula",
-        "icon": "img/items/luminous_calendula.png"
-    },
-    "moss_amber": {
-        "name": "Moss Amber",
-        "icon": "img/items/moss_amber.png"
-    },
-    "nova": {
-        "name": "Nova",
-        "icon": "img/items/nova.png"
-    },
-    "pavo_plum": {
-        "name": "Pavo Plum",
-        "icon": "img/items/pavo_plum.png"
-    },
-    "pecok_flower": {
-        "name": "Pecok Flower",
-        "icon": "img/items/pecok_flower.png"
-    },
-    "rimewisp": {
-        "name": "Rimewisp",
-        "icon": "img/items/rimewisp.png"
-    },
-    "seaside_cendrelis": {
-        "name": "Seaside Cendrelis",
-        "icon": "img/items/seaside_cendrelis.png"
-    },
-    "sliverglow_bloom": {
-        "name": "Sliverglow Bloom",
-        "icon": "img/items/sliverglow_bloom.png"
-    },
-    "stone_rose": {
-        "name": "Stone Rose",
-        "icon": "img/items/stone_rose.png"
-    },
-    "summer_flower": {
-        "name": "Summer Flower",
-        "icon": "img/items/summer_flower.png"
-    },
-    "sword_acorus": {
-        "name": "Sword Acorus",
-        "icon": "img/items/sword_acorus.png"
-    },
-    "terraspawn_fungus": {
-        "name": "Terraspawn Fungus",
-        "icon": "img/items/terraspawn_fungus.png"
-    },
-    "violet_coral": {
-        "name": "Violet Coral",
-        "icon": "img/items/violet_coral.png"
-    },
-    "wintry_bell": {
-        "name": "Wintry Bell",
-        "icon": "img/items/wintry_bell.png"
-    }
+  "basic_sealed_tube": {
+    "name": "Basic Sealed Tube",
+    "icon": "img/items/basic_sealed_tube.png"
+  },
+  "basic_resonance_potion": {
+    "name": "Basic Resonance Potion",
+    "icon": "img/items/basic_resonance_potion.png"
+  },
+  "inert_metallic_drip": {
+    "name": "Inert Metallic Drip",
+    "icon": "img/items/inert_metallic_drip.png"
+  },
+  "lf_whisperin_core": {
+    "name": "LF Whisperin Core",
+    "icon": "img/items/lf_whisperin_core.png"
+  },
+  "lf_howler_core": {
+    "name": "LF Howler Core",
+    "icon": "img/items/lf_howler_core.png"
+  },
+  "crude_ring": {
+    "name": "Crude Ring",
+    "icon": "img/items/crude_ring.png"
+  },
+  "mask_of_constraint": {
+    "name": "Mask of Constraint",
+    "icon": "img/items/mask_of_constraint.png"
+  },
+  "impure_phlogiston": {
+    "name": "Impure Phlogiston",
+    "icon": "img/items/impure_phlogiston.png"
+  },
+  "lento_helix": {
+    "name": "Lento Helix",
+    "icon": "img/items/lento_helix.png"
+  },
+  "waveworn_residue_210": {
+    "name": "Waveworn Residue 210",
+    "icon": "img/items/waveworn_residue_210.png"
+  },
+  "cadence_seed": {
+    "name": "Cadence Seed",
+    "icon": "img/items/cadence_seed.png"
+  },
+  "basic_energy_core": {
+    "name": "Basic Energy Core",
+    "icon": "img/items/basic_energy_core.png"
+  },
+  "lf_tidal_residuum": {
+    "name": "LF Tidal Residuum",
+    "icon": "img/items/lf_tidal_residuum.png"
+  },
+  "lf_polygon_core": {
+    "name": "LF Polygon Core",
+    "icon": "img/items/lf_polygon_core.png"
+  },
+  "lf_exoswarm_core": {
+    "name": "LF Exoswarm Core",
+    "icon": "img/items/lf_exoswarm_core.png"
+  },
+  "incomplete_combustor": {
+    "name": "Incomplete Combustor",
+    "icon": "img/items/incomplete_combustor.png"
+  },
+  "lf_mech_core": {
+    "name": "LF Mech Core",
+    "icon": "img/items/lf_mech_core.png"
+  },
+  "fractured_exoswarm_pendant": {
+    "name": "Fractured Exoswarm Pendant",
+    "icon": "img/items/fractured_exoswarm_pendant.png"
+  },
+  "broken_wing_polarizer": {
+    "name": "Broken Wing Polarizer",
+    "icon": "img/items/broken_wing_polarizer.png"
+  },
+  "spliced_string": {
+    "name": "Spliced String",
+    "icon": "img/items/spliced_string.png"
+  },
+  "lf_carved_crystal": {
+    "name": "LF Carved Crystal",
+    "icon": "img/items/lf_carved_crystal.png"
+  },
+  "lf_waveworn_shard": {
+    "name": "LF Waveworn Shard",
+    "icon": "img/items/lf_waveworn_shard.png"
+  },
+  "medium_tuner": {
+    "name": "Medium Tuner",
+    "icon": "img/items/medium_tuner.png"
+  },
+  "medium_sealed_tube": {
+    "name": "Medium Sealed Tube",
+    "icon": "img/items/medium_sealed_tube.png"
+  },
+  "medium_resonance_potion": {
+    "name": "Medium Resonance Potion",
+    "icon": "img/items/medium_resonance_potion.png"
+  },
+  "reactive_metallic_drip": {
+    "name": "Reactive Metallic Drip",
+    "icon": "img/items/reactive_metallic_drip.png"
+  },
+  "mf_whisperin_core": {
+    "name": "MF Whisperin Core",
+    "icon": "img/items/mf_whisperin_core.png"
+  },
+  "mf_howler_core": {
+    "name": "MF Howler Core",
+    "icon": "img/items/mf_howler_core.png"
+  },
+  "basic_ring": {
+    "name": "Basic Ring",
+    "icon": "img/items/basic_ring.png"
+  },
+  "mask_of_erosion": {
+    "name": "Mask of Erosion",
+    "icon": "img/items/mask_of_erosion.png"
+  },
+  "extracted_phlogiston": {
+    "name": "Extracted Phlogiston",
+    "icon": "img/items/extracted_phlogiston.png"
+  },
+  "adagio_helix": {
+    "name": "Adagio Helix",
+    "icon": "img/items/adagio_helix.png"
+  },
+  "waveworn_residue_226": {
+    "name": "Waveworn Residue 226",
+    "icon": "img/items/waveworn_residue_226.png"
+  },
+  "cadence_bud": {
+    "name": "Cadence Bud",
+    "icon": "img/items/cadence_bud.png"
+  },
+  "medium_energy_core": {
+    "name": "Medium Energy Core",
+    "icon": "img/items/medium_energy_core.png"
+  },
+  "mf_tidal_residuum": {
+    "name": "MF Tidal Residuum",
+    "icon": "img/items/mf_tidal_residuum.png"
+  },
+  "mf_polygon_core": {
+    "name": "MF Polygon Core",
+    "icon": "img/items/mf_polygon_core.png"
+  },
+  "mf_exoswarm_core": {
+    "name": "MF Exoswarm Core",
+    "icon": "img/items/mf_exoswarm_core.png"
+  },
+  "aftertune_combustor": {
+    "name": "Aftertune Combustor",
+    "icon": "img/items/aftertune_combustor.png"
+  },
+  "mf_mech_core": {
+    "name": "MF Mech Core",
+    "icon": "img/items/mf_mech_core.png"
+  },
+  "worn_exoswarm_pendant": {
+    "name": "Worn Exoswarm Pendant",
+    "icon": "img/items/worn_exoswarm_pendant.png"
+  },
+  "monowing_polarizer": {
+    "name": "Monowing Polarizer",
+    "icon": "img/items/monowing_polarizer.png"
+  },
+  "broken_string": {
+    "name": "Broken String",
+    "icon": "img/items/broken_string.png"
+  },
+  "mf_carved_crystal": {
+    "name": "MF Carved Crystal",
+    "icon": "img/items/mf_carved_crystal.png"
+  },
+  "mf_waveworn_shard": {
+    "name": "MF Waveworn Shard",
+    "icon": "img/items/mf_waveworn_shard.png"
+  },
+  "advanced_tuner": {
+    "name": "Advanced Tuner",
+    "icon": "img/items/advanced_tuner.png"
+  },
+  "advanced_sealed_tube": {
+    "name": "Advanced Sealed Tube",
+    "icon": "img/items/advanced_sealed_tube.png"
+  },
+  "advanced_resonance_potion": {
+    "name": "Advanced Resonance Potion",
+    "icon": "img/items/advanced_resonance_potion.png"
+  },
+  "polarized_metallic_drip": {
+    "name": "Polarized Metallic Drip",
+    "icon": "img/items/polarized_metallic_drip.png"
+  },
+  "strife_tacet_core": {
+    "name": "Strife Tacet Core",
+    "icon": "img/items/strife_tacet_core.png"
+  },
+  "thundering_tacet_core": {
+    "name": "Thundering Tacet Core",
+    "icon": "img/items/thundering_tacet_core.png"
+  },
+  "elegy_tacet_core": {
+    "name": "Elegy Tacet Core",
+    "icon": "img/items/elegy_tacet_core.png"
+  },
+  "rage_tacet_core": {
+    "name": "Rage Tacet Core",
+    "icon": "img/items/rage_tacet_core.png"
+  },
+  "roaring_rock_fist": {
+    "name": "Roaring Rock Fist",
+    "icon": "img/items/roaring_rock_fist.png"
+  },
+  "gold_dissolving_feather": {
+    "name": "Gold-Dissolving Feather",
+    "icon": "img/items/gold_dissolving_feather.png"
+  },
+  "sound_keeping_tacet_core": {
+    "name": "Sound-Keeping Tacet Core",
+    "icon": "img/items/sound_keeping_tacet_core.png"
+  },
+  "group_abomination_tacet_core": {
+    "name": "Group Abomination Tacet Core",
+    "icon": "img/items/group_abomination_tacet_core.png"
+  },
+  "hf_whisperin_core": {
+    "name": "HF Whisperin Core",
+    "icon": "img/items/hf_whisperin_core.png"
+  },
+  "hf_howler_core": {
+    "name": "HF Howler Core",
+    "icon": "img/items/hf_howler_core.png"
+  },
+  "improved_ring": {
+    "name": "Improved Ring",
+    "icon": "img/items/improved_ring.png"
+  },
+  "mask_of_distortion": {
+    "name": "Mask of Distortion",
+    "icon": "img/items/mask_of_distortion.png"
+  },
+  "monument_bell": {
+    "name": "Monument Bell",
+    "icon": "img/items/monument_bell.png"
+  },
+  "unending_destruction": {
+    "name": "Unending Destruction",
+    "icon": "img/items/unending_destruction.png"
+  },
+  "refined_phlogiston": {
+    "name": "Refined Phlogiston",
+    "icon": "img/items/refined_phlogiston.png"
+  },
+  "andante_helix": {
+    "name": "Andante Helix",
+    "icon": "img/items/andante_helix.png"
+  },
+  "waveworn_residue_235": {
+    "name": "Waveworn Residue 235",
+    "icon": "img/items/waveworn_residue_235.png"
+  },
+  "cadence_leaf": {
+    "name": "Cadence Leaf",
+    "icon": "img/items/cadence_leaf.png"
+  },
+  "hidden_thunder_tacet_core": {
+    "name": "Hidden Thunder Tacet Core",
+    "icon": "img/items/hidden_thunder_tacet_core.png"
+  },
+  "advanced_energy_core": {
+    "name": "Advanced Energy Core",
+    "icon": "img/items/advanced_energy_core.png"
+  },
+  "dreamless_feather": {
+    "name": "Dreamless Feather",
+    "icon": "img/items/dreamless_feather.png"
+  },
+  "sentinels_dagger": {
+    "name": "Sentinel's Dagger",
+    "icon": "img/items/sentinels_dagger.png"
+  },
+  "topological_confinement": {
+    "name": "Topological Confinement",
+    "icon": "img/items/topological_confinement.png"
+  },
+  "hf_tidal_residuum": {
+    "name": "HF Tidal Residuum",
+    "icon": "img/items/hf_tidal_residuum.png"
+  },
+  "hf_polygon_core": {
+    "name": "HF Polygon Core",
+    "icon": "img/items/hf_polygon_core.png"
+  },
+  "the_netherworlds_stare": {
+    "name": "The Netherworld's Stare",
+    "icon": "img/items/the_netherworlds_stare.png"
+  },
+  "cleansing_conch": {
+    "name": "Cleansing Conch",
+    "icon": "img/items/cleansing_conch.png"
+  },
+  "platinum_core": {
+    "name": "Platinum Core",
+    "icon": "img/items/platinum_core.png"
+  },
+  "blazing_bone": {
+    "name": "Blazing Bone",
+    "icon": "img/items/blazing_bone.png"
+  },
+  "when_irises_bloom": {
+    "name": "When Irises Bloom",
+    "icon": "img/items/when_irises_bloom.png"
+  },
+  "unfading_glory": {
+    "name": "Unfading Glory",
+    "icon": "img/items/unfading_glory.png"
+  },
+  "truth_in_lies": {
+    "name": "Truth in Lies",
+    "icon": "img/items/truth_in_lies.png"
+  },
+  "blighted_crown_of_puppet_king": {
+    "name": "Blighted Crown of Puppet King",
+    "icon": "img/items/blighted_crown_of_puppet_king.png"
+  },
+  "abyssal_husk": {
+    "name": "Abyssal Husk",
+    "icon": "img/items/abyssal_husk.png"
+  },
+  "curse_of_the_abyss": {
+    "name": "Curse of the Abyss",
+    "icon": "img/items/curse_of_the_abyss.png"
+  },
+  "hf_exoswarm_core": {
+    "name": "HF Exoswarm Core",
+    "icon": "img/items/hf_exoswarm_core.png"
+  },
+  "suncoveters_reach": {
+    "name": "Suncoveter's Reach",
+    "icon": "img/items/suncoveters_reach.png"
+  },
+  "remnant_combustor": {
+    "name": "Remnant Combustor",
+    "icon": "img/items/remnant_combustor.png"
+  },
+  "hf_mech_core": {
+    "name": "HF Mech Core",
+    "icon": "img/items/hf_mech_core.png"
+  },
+  "chipped_exoswarm_pendant": {
+    "name": "Chipped Exoswarm Pendant",
+    "icon": "img/items/chipped_exoswarm_pendant.png"
+  },
+  "polywing_polarizer": {
+    "name": "Polywing Polarizer",
+    "icon": "img/items/polywing_polarizer.png"
+  },
+  "solidified_string": {
+    "name": "Solidified String",
+    "icon": "img/items/solidified_string.png"
+  },
+  "hf_carved_crystal": {
+    "name": "HF Carved Crystal",
+    "icon": "img/items/hf_carved_crystal.png"
+  },
+  "hf_waveworn_shard": {
+    "name": "HF Waveworn Shard",
+    "icon": "img/items/hf_waveworn_shard.png"
+  },
+  "burning_judgment": {
+    "name": "Burning Judgment",
+    "icon": "img/items/burning_judgment.png"
+  },
+  "our_choice": {
+    "name": "Our Choice",
+    "icon": "img/items/our_choice.png"
+  },
+  "gold_in_memory": {
+    "name": "Gold in Memory",
+    "icon": "img/items/gold_in_memory.png"
+  },
+  "we_who_question": {
+    "name": "We Who Question",
+    "icon": "img/items/we_who_question.png"
+  },
+  "nightmare_flashdrive": {
+    "name": "Nightmare Flashdrive",
+    "icon": "img/items/nightmare_flashdrive.png"
+  },
+  "premium_tuner": {
+    "name": "Premium Tuner",
+    "icon": "img/items/premium_tuner.png"
+  },
+  "premium_sealed_tube": {
+    "name": "Premium Sealed Tube",
+    "icon": "img/items/premium_sealed_tube.png"
+  },
+  "premium_resonance_potion": {
+    "name": "Premium Resonance Potion",
+    "icon": "img/items/premium_resonance_potion.png"
+  },
+  "heterized_metallic_drip": {
+    "name": "Heterized Metallic Drip",
+    "icon": "img/items/heterized_metallic_drip.png"
+  },
+  "mysterious_code": {
+    "name": "Mysterious Code",
+    "icon": "img/items/mysterious_code.png"
+  },
+  "ff_whisperin_core": {
+    "name": "FF Whisperin Core",
+    "icon": "img/items/ff_whisperin_core.png"
+  },
+  "ff_howler_core": {
+    "name": "FF Howler Core",
+    "icon": "img/items/ff_howler_core.png"
+  },
+  "tailored_ring": {
+    "name": "Tailored Ring",
+    "icon": "img/items/tailored_ring.png"
+  },
+  "mask_of_insanity": {
+    "name": "Mask of Insanity",
+    "icon": "img/items/mask_of_insanity.png"
+  },
+  "flawless_phlogiston": {
+    "name": "Flawless Phlogiston",
+    "icon": "img/items/flawless_phlogiston.png"
+  },
+  "presto_helix": {
+    "name": "Presto Helix",
+    "icon": "img/items/presto_helix.png"
+  },
+  "waveworn_residue_239": {
+    "name": "Waveworn Residue 239",
+    "icon": "img/items/waveworn_residue_239.png"
+  },
+  "cadence_blossom": {
+    "name": "Cadence Blossom",
+    "icon": "img/items/cadence_blossom.png"
+  },
+  "premium_energy_core": {
+    "name": "Premium Energy Core",
+    "icon": "img/items/premium_energy_core.png"
+  },
+  "ff_tidal_residuum": {
+    "name": "FF Tidal Residuum",
+    "icon": "img/items/ff_tidal_residuum.png"
+  },
+  "ff_polygon_core": {
+    "name": "FF Polygon Core",
+    "icon": "img/items/ff_polygon_core.png"
+  },
+  "echo_modifier": {
+    "name": "Echo Modifier",
+    "icon": "img/items/echo_modifier.png"
+  },
+  "ff_exoswarm_core": {
+    "name": "FF Exoswarm Core",
+    "icon": "img/items/ff_exoswarm_core.png"
+  },
+  "reverb_combustor": {
+    "name": "Reverb Combustor",
+    "icon": "img/items/reverb_combustor.png"
+  },
+  "ff_mech_core": {
+    "name": "FF Mech Core",
+    "icon": "img/items/ff_mech_core.png"
+  },
+  "intact_exoswarm_pendant": {
+    "name": "Intact Exoswarm Pendant",
+    "icon": "img/items/intact_exoswarm_pendant.png"
+  },
+  "layered_wing_polarizer": {
+    "name": "Layered Wing Polarizer",
+    "icon": "img/items/layered_wing_polarizer.png"
+  },
+  "melodic_string": {
+    "name": "Melodic String",
+    "icon": "img/items/melodic_string.png"
+  },
+  "ff_carved_crystal": {
+    "name": "FF Carved Crystal",
+    "icon": "img/items/ff_carved_crystal.png"
+  },
+  "ff_waveworn_shard": {
+    "name": "FF Waveworn Shard",
+    "icon": "img/items/ff_waveworn_shard.png"
+  },
+  "transducer": {
+    "name": "Transducer",
+    "icon": "img/items/transducer.png"
+  },
+  "redbell": {
+    "name": "Redbell",
+    "icon": "img/items/redbell.png"
+  },
+  "shell_credit": {
+    "name": "Shell Credit",
+    "icon": "img/items/shell_credit.png"
+  },
+  "afterlife": {
+    "name": "Afterlife",
+    "icon": "img/items/afterlife.png"
+  },
+  "arithmetic_shell": {
+    "name": "Arithmetic Shell",
+    "icon": "img/items/arithmetic_shell.png"
+  },
+  "bamboo_iris": {
+    "name": "Bamboo Iris",
+    "icon": "img/items/bamboo_iris.png"
+  },
+  "belle_poppy": {
+    "name": "Belle Poppy",
+    "icon": "img/items/belle_poppy.png"
+  },
+  "bloodleaf_viburnum": {
+    "name": "Bloodleaf Viburnum",
+    "icon": "img/items/bloodleaf_viburnum.png"
+  },
+  "coriolus": {
+    "name": "Coriolus",
+    "icon": "img/items/coriolus.png"
+  },
+  "dream_of_stars": {
+    "name": "Dream of Stars",
+    "icon": "img/items/dream_of_stars.png"
+  },
+  "edelschnee": {
+    "name": "Edelschnee",
+    "icon": "img/items/edelschnee.png"
+  },
+  "firecracker_jewelweed": {
+    "name": "Firecracker Jewelweed",
+    "icon": "img/items/firecracker_jewelweed.png"
+  },
+  "gemini_spore": {
+    "name": "Gemini Spore",
+    "icon": "img/items/gemini_spore.png"
+  },
+  "golden_fleece": {
+    "name": "Golden Fleece",
+    "icon": "img/items/golden_fleece.png"
+  },
+  "iris": {
+    "name": "Iris",
+    "icon": "img/items/iris.png"
+  },
+  "lanternberry": {
+    "name": "Lanternberry",
+    "icon": "img/items/lanternberry.png"
+  },
+  "loongs_pearl": {
+    "name": "Loong's Pearl",
+    "icon": "img/items/loongs_pearl.png"
+  },
+  "luminous_calendula": {
+    "name": "Luminous Calendula",
+    "icon": "img/items/luminous_calendula.png"
+  },
+  "moss_amber": {
+    "name": "Moss Amber",
+    "icon": "img/items/moss_amber.png"
+  },
+  "nova": {
+    "name": "Nova",
+    "icon": "img/items/nova.png"
+  },
+  "pavo_plum": {
+    "name": "Pavo Plum",
+    "icon": "img/items/pavo_plum.png"
+  },
+  "pecok_flower": {
+    "name": "Pecok Flower",
+    "icon": "img/items/pecok_flower.png"
+  },
+  "rimewisp": {
+    "name": "Rimewisp",
+    "icon": "img/items/rimewisp.png"
+  },
+  "seaside_cendrelis": {
+    "name": "Seaside Cendrelis",
+    "icon": "img/items/seaside_cendrelis.png"
+  },
+  "sliverglow_bloom": {
+    "name": "Sliverglow Bloom",
+    "icon": "img/items/sliverglow_bloom.png"
+  },
+  "stone_rose": {
+    "name": "Stone Rose",
+    "icon": "img/items/stone_rose.png"
+  },
+  "summer_flower": {
+    "name": "Summer Flower",
+    "icon": "img/items/summer_flower.png"
+  },
+  "sword_acorus": {
+    "name": "Sword Acorus",
+    "icon": "img/items/sword_acorus.png"
+  },
+  "terraspawn_fungus": {
+    "name": "Terraspawn Fungus",
+    "icon": "img/items/terraspawn_fungus.png"
+  },
+  "violet_coral": {
+    "name": "Violet Coral",
+    "icon": "img/items/violet_coral.png"
+  },
+  "wintry_bell": {
+    "name": "Wintry Bell",
+    "icon": "img/items/wintry_bell.png"
+  },
+  "past_reveries": {
+    "name": "Past Reveries",
+    "icon": "img/items/past_reveries.png"
+  },
+  "novas": {
+    "name": "Novas",
+    "icon": "img/items/novas.png"
+  },
+  "unwarranted_feather": {
+    "id": "unwarranted_feather",
+    "name": "Unwarranted Feather",
+    "description": "",
+    "icon": "img/items/unwarranted_feather.png",
+    "rarity": 4
+  }
 }

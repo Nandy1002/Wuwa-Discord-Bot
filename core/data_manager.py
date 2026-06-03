@@ -67,10 +67,12 @@ class DataManager:
             return
         with open(filepath, 'r', encoding='utf-8') as f:
             raw = json.load(f)
-        self.characters = {
-            key.strip().lower(): Character(key.strip().lower(), value)
-            for key, value in raw.items()
-        }
+        self.characters = {}
+        for i, (key, value) in enumerate(raw.items(), start=1):
+            char_key = key.strip().lower()
+            char = Character(char_key, value)
+            char.numeric_id = i
+            self.characters[char_key] = char
 
     def get_character(self, key: str):
         return self.characters.get(key.strip().lower())

@@ -1,6 +1,7 @@
 class Character:
     def __init__(self, key: str, data: dict):
         self.key = key
+        self.numeric_id = 0
         self.name = data.get('name')
         self.rarity = data.get('rarity')
         self.type = data.get('type')
